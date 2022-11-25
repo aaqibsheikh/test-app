@@ -3,7 +3,7 @@ import { useEthers } from '@usedapp/core'
 import MetamaskImg from "../assets/images/metamask.svg"
 import ConnectWalletImg from "../assets/images/walletconnect.svg"
 const ConnectWallet = () => {
-    const { activateBrowserWallet, account } = useEthers()
+    const { activateBrowserWallet } = useEthers()
 
     return (
         <div className="flex flex-col items-center justifiy-center mt-32">
